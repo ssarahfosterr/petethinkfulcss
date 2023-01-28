@@ -28,7 +28,13 @@ div {
   width: 600px;
   
 }
- 
+
+section.portfolio-item{
+  display: flex;
+  flex-direction: column;
+  width:30%;
+}
+
 .container {
   display: flex;
   
@@ -40,9 +46,11 @@ div {
 
 }
 #box1{
-  display: inline-block
+  display: inline-block;
+  text-align: left;
 
 }
+
 
 article {
   padding: 50px 0;
@@ -59,7 +67,7 @@ article div {
 /* Paragraphs */
 p {
   line-height: 1.5;
-  display: flex
+  
 }
 
 /* Links */
@@ -97,4 +105,4 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
-}
+} 
