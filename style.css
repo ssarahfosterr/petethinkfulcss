@@ -24,7 +24,7 @@ header {
 /* Containers */
 div {
   background-color: #eae2b7;
-  margin: auto;
+  margin-inline: auto;
   width: 600px;
   
 }
